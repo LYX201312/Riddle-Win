@@ -1,0 +1,31 @@
+[
+    {
+        "caretX": 17,
+        "caretY": 93,
+        "filename": "C:/Users/pro5/Documents/Projects/Riddle - Win/many.h",
+        "focused": true,
+        "isOpen": true,
+        "left": 0,
+        "order": 1,
+        "top": 13104
+    },
+    {
+        "caretX": 5,
+        "caretY": 139,
+        "filename": "C:/Users/pro5/Documents/Projects/Riddle - Win/single.h",
+        "focused": false,
+        "isOpen": false,
+        "left": 0,
+        "top": 15351
+    },
+    {
+        "caretX": 1,
+        "caretY": 95,
+        "filename": "C:/Users/pro5/Documents/Projects/Riddle - Win/main.cpp",
+        "focused": false,
+        "isOpen": true,
+        "left": 0,
+        "order": 0,
+        "top": 12240
+    }
+]
