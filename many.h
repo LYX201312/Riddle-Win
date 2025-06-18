@@ -99,8 +99,10 @@ void many() {
 		cleardevice();
 		delay_fps(60);
 		send(s,"map",3,0);
+		cout<<"sended!";
 		char buffer[1024];
-		recv(s,buffer,1024,0);
+		buffer[0]='\0';
+		while(buffer[0]=='\0')recv(s,buffer,1024,0);
 		for(int i=0;i<=31;i++){
 			for(int j=0;j<=31;j++){
 				map[i][j]=buffer[i*j]-30;
@@ -112,6 +114,7 @@ void many() {
 				fillrect(i*ncx/32,j*ncy/32,(i+1)*ncx/32,(j+1)*ncy/32);
 			}
 		}
+		system("pause");
 	}
 	closesocket(s);
 	WSACleanup();

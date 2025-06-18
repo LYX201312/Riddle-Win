@@ -48,7 +48,7 @@ int main() {
 			recvbuf[bytes_received] = '\0';
 			printf("Received: %s\n", recvbuf);
 		}
-		if (recvbuf == "map") {
+		if (recvbuf[0] == 'm' && recvbuf[1] == 'a' && recvbuf[2] == 'p') {
 			string buf;
 			for (int i = 0; i <= 31; i++) {
 				for (int j = 0; j <= 31; j++) {
